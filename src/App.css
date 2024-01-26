@@ -25,7 +25,7 @@
   .straightline {
     background-color: black;
     width: 10px;
-    height: 80px;
+    height: 60px;
     position: absolute;
     left: 50%; /* Center it horizontally */
     transform: translateX(-50%); /* Adjust horizontal positioning */
