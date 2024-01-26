@@ -1,0 +1,32 @@
+.container {
+    /* max-width: 800px; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    margin: 0 auto; 
+    align-items: center;  
+}
+
+.header{
+    font-size: 2rem;
+}
+
+.drawing{
+    position: relative;
+}
+
+.flatbar {
+    background-color: black;
+    height: 10px;
+    width: 250px;
+    position: relative; 
+  }
+  
+  .straightline {
+    background-color: black;
+    width: 10px;
+    height: 80px;
+    position: absolute;
+    left: 50%; /* Center it horizontally */
+    transform: translateX(-50%); /* Adjust horizontal positioning */
+  }
