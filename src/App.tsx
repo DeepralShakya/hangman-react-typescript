@@ -26,7 +26,7 @@ function App() {
       <div className="#">
         <HangmanDrawing/>
         <HangmanWord/>
-        <Keyboard/>
+        {/* <Keyboard/> */}
       </div>
   </div>
   )

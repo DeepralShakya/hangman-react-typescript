@@ -7,8 +7,8 @@ const HEAD = (
         borderRadius: "100%",
         border: "10px solid black",
         position: "absolute",
-        top: "50px",
-        right: "90px",
+        top: "60px",
+        right: "132px"
     }}/>
 )
 
@@ -18,8 +18,8 @@ const BODY = (
         height: "120px",
         background: "black",
         position: "absolute",
-        top: "118px",
-        right: "120px",
+        top: "125px",
+        right: "160px",
     }}/>
 )
 
@@ -29,8 +29,8 @@ const RIGHT_ARM = (
         height: "10px",
         background: "black",
         position: "absolute",
-        top: "150px",
-        right: "30px",
+        top: "162px",
+        right: "70px",
         rotate: "30deg"
     }}/>
 )
@@ -41,8 +41,8 @@ const LEFT_ARM = (
         height: "10px",
         background: "black",
         position: "absolute",
-        top: "150px",
-        right: "120px",
+        top: "162px",
+        right: "160px",
         rotate: "-30deg"
     }}/>
 )
@@ -53,8 +53,8 @@ const RIGHT_LEG = (
         height: "10px",
         background: "black",
         position: "absolute",
-        top: "270px",
-        right: "57px",
+        top: "275px",
+        right: "96px",
         rotate: "60deg"
     }}/>
 )
@@ -65,8 +65,8 @@ const LEFT_LEG = (
         height: "10px",
         background: "black",
         position: "absolute",
-        top: "270px",
-        right: "103px",
+        top: "275px",
+        right: "144px",
         rotate: "-60deg"
     }}/>
 )
