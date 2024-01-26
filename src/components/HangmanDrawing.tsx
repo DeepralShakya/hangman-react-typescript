@@ -71,7 +71,13 @@ const LEFT_LEG = (
     }}/>
 )
 
-export function HangmanDrawing(){
+const BODY_PARTS = [HEAD, BODY, RIGHT_ARM, LEFT_ARM, RIGHT_LEG, LEFT_LEG]
+
+type HangmanDrawingProps = {
+    numberOfGuess: number
+}
+
+export function HangmanDrawing( {numberOfGuess}: HangmanDrawingProps ){
     return (
     <div className="drawing">
         {HEAD}
